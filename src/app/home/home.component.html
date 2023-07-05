@@ -1,6 +1,8 @@
 <h1>home works! {{title}}</h1>
 <button [disabled]="clicked" (click)="handleClick()">test</button>
 
+{{ 23.33333333 | number }}
+
 <div *ngFor="let boat of boats">
     <h3 [ngClass]="{
         'green' : boat.name === 'Starfire', 
