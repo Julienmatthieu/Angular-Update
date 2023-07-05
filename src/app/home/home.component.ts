@@ -12,15 +12,15 @@ export class HomeComponent {
 // Boat Data
   boats = [
     {
-    name: 'starfire',
+    name: 'Starfire',
     year: 1997,
     img: "assets/boat.jpg"
   },{
-    name: 'starfire2',
+    name: 'Starfire2',
     year: 1999,
     img: "assets/boat.jpg"
   },{
-    name: 'starfire3',
+    name: 'Starfire3',
     year: 2000,
     img: "assets/boat.jpg"
   },
