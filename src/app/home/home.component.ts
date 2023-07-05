@@ -10,11 +10,21 @@ export class HomeComponent {
   title ='this is a title';
 
 // Boat Data
-  boat = {
+  boats = [
+    {
     name: 'starfire',
     year: 1997,
     img: "assets/boat.jpg"
-  }
+  },{
+    name: 'starfire2',
+    year: 1999,
+    img: "assets/boat.jpg"
+  },{
+    name: 'starfire3',
+    year: 2000,
+    img: "assets/boat.jpg"
+  },
+]
 
   handleClick() {
     this.clicked = true;
