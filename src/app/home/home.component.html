@@ -3,7 +3,7 @@
 
 {{ 23.33333333 | number }}
 
-<div *ngFor="let boat of boats">
+<div *ngFor="let boat of boats | async">
     <h3 [ngClass]="{
         'green' : boat.name === 'Starfire', 
         'red' : boat.name !== 'Starfire'
