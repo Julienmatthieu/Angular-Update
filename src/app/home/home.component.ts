@@ -9,6 +9,13 @@ export class HomeComponent {
   clicked = false;
   title ='this is a title';
 
+// Boat Data
+  boat = {
+    name: 'starfire',
+    year: 1997,
+    img: "assets/boat.jpg"
+  }
+
   handleClick() {
     this.clicked = true;
   }
